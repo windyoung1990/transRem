@@ -1,0 +1,44 @@
+.main{
+    margin: 40px auto;
+    width: 90%;
+    .header{
+        margin-bottom: .2rem;
+        text-align: center;
+        font-size: .2rem;
+    }
+    .content {
+        font-size: .15rem;
+        .chapter {
+            .title {
+                text-align: left;
+                margin-bottom: .2rem;
+            }
+            .item {
+                margin-bottom: .3rem;
+                .title {
+                    text-align: left;
+                    margin-bottom: .1rem;
+                }
+                .text {
+                    margin-bottom: .2rem;
+                    p {
+                        margin-bottom: 0.05rem;
+                    }
+                    ol {
+                        li {
+                            margin-bottom: 0.05rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .foot {
+        margin-bottom: .1rem;
+        font-size: .15rem;
+        text-align: right;
+        p {
+            margin-bottom: .2rem;
+        }
+    }
+}
